@@ -1,0 +1,11 @@
+export const elements = {
+    "userNameField": '[data-test="username"]',
+    "passWordField": '[data-test="password"]',
+    "loginButton": '[data-test="login-button"]',
+    "standardUser": 'standard_user',
+    "lockedOutUser": 'locked_out_user',
+    "problemUSer": 'problem_user',
+    "passWord": 'secret_sauce'
+
+
+}
