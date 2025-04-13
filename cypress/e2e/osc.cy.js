@@ -16,7 +16,7 @@ describe('register',()=>{
     })
     it.only('sign in',()=>{
         cy.visit('https://osc-ultimate-demo.mageplaza.com/')
-        cy.get(element.signIn).click()
+        cy.get(element.signIn).should('be.visible').click()
         cy.get(element.signinEmail).type(element.emailAddress)
         cy.get(element.signInPassword).type(element.confirmed)
         cy.get(element.loginBtn).click()
